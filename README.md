@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @timbeauchamp
 - 👀 I’m interested in Just about everything, but especially software, science, electronics, photography, astronomy, beekeeping, ...
-- 🌱 I’m currently learning Lotlin and Swift
 - 💞️ I’m looking to collaborate on cool things
 - 📫 How to reach me Email
 
