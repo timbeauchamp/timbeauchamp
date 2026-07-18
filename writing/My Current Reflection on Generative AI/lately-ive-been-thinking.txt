@@ -1,0 +1,52 @@
+Lately, I’ve been thinking about how AI is changing my relationship with the computer.
+
+My history with computers goes back well before PCs. I remember punch cards, line printers, and 300-baud acoustic modems. At that point, if I wanted to search for something, I didn’t use a computer. I went to a library, searched the card catalog, wrote down a Dewey Decimal number, and went looking for the book on the shelves in that section. I spent most of my time in the 500s and 600s.
+
+Using a computer meant learning the terms on which the computer and I could work together. I had to express myself in exactly the right form, whether that meant preparing punch cards, writing code, or typing commands. We liked to think the computer did what we told it to do, assuming we told it correctly. In reality, it dogmatically did what it had been programmed to do, with our input deterministically directing which branch of its programmed logic came next.
+
+Now, working with AI and agentic interactions, I find myself saying things like “Go,” “Proceed,” “Yeah, go for it,” or “That sounds good. Why don’t you do it?” Sometimes, when things go badly, it is more like, “Why the f*%k did you do that?”
+
+Those aren’t computer commands in the traditional sense, especially that last one. They’re the sorts of things I would say to another person when we already share enough context to know what comes next. Well, again, not that last one. I would never say that to another person.
+
+Over the years, I have learned many computer languages. I kind of collect them, much like my old friend from high school, Mark Gold, may he rest in peace, used to collect refrigerator magnets.
+
+All the while, I have been surrounded by, and close friends with, many multilingual people. My own command of any language other than English doesn’t extend much beyond “cerveza,” “vino,” and “merci.”
+
+Computer languages were different. To use them, I learned domain-specific, precisely defined words such as `class`, `interface`, `new`, and `this`. Each generation of languages added another layer of abstraction between me and the machinery underneath.
+
+Now, in a sense, I am writing software using natural language. Natural language has become the programming language I use to talk to my coding agents. I speak to them in the same language I would use to discuss a project with a friend or colleague. Instead of my development environment simply telling me that I said something wrong, an agent can ask for clarification or extremely politely point out that I probably meant something else.
+
+I started writing this at 11:00 last night. I was splitting my time between putting down my own thoughts, waiting for Claude, OpenAI, or Cursor to come back with theirs, and checking whether some agent had finished a task I had asked it to do. Sometimes it would take minutes, and sometimes hours, only to come back with a question, ask for permission to do something, or eventually tell me it was done and ask me to review its work.
+
+In fact, much of this post was written while my coding agent was off doing its own work. That is also why I was still awake at 4:40 in the morning, waiting for it to tell me it was finished.
+
+I finally asked it:
+“Should I go to bed now?”
+
+It replied:
+“Yes — everything’s done and verified clean: cron’s back on schedule, both models caught up and trained, kiosk’s live, nothing running that needs watching. Good night.”
+
+There is an em dash in that response, by the way. More on that in a moment.
+
+Even the rhythm of using a computer has changed. I’m no longer necessarily sitting in front of one program and working through one sequence of steps. I’m moving among several ongoing conversations and collaborations, each progressing at its own pace. Sometimes I’m doing the work. Sometimes an agent is doing the work while I think about something else. Sometimes I’m simply waiting for it to report back. And many times, when this stretches into the wee hours of the morning, I am falling asleep.
+
+This post is itself being co-authored with AI, although I would prefer that not to be too obvious. One small example is punctuation. AI-generated prose seems particularly fond of em dashes, which pisses me off a little bit. I use them a lot myself, so their appearance isn’t necessarily artificial, but too many can begin to feel like a tell. I asked the AI to limit them, and then suggested that we work that request into the post. So even this paragraph is part of the thing I’m trying to describe.
+
+A recent interaction on a passion project made the larger change especially clear.
+
+I was telling an AI coding agent about a problem involving several hardware devices I am building for the project. Some hardware had stopped providing useful data for a while, but because of the conditions at the time, the failure turned out not to be especially consequential. That led me to a broader realization: the importance of a device failure depends on what is happening around it, and disagreement between different sources of information may be just as important as an outright failure.
+I didn’t present this as a formal specification or ask it to fix anything. I described what had happened, why it happened to be okay, and why it worried me for the future. It was more like telling the story of an incident to a colleague.
+
+The AI responded by identifying the larger principle, turning it into a possible system requirement, connecting it to parts of the software that already existed, and suggesting how we might approach it. It also knew that another long-running task was underway and essentially said, “This matters, but it deserves proper thought. I can preserve it for our next session unless you think it is urgent enough to work on tonight.”
+
+That didn’t feel like operating a computer. It felt like working with a collaborator.
+
+Of course, the AI isn’t literally a colleague or a peer. It can misunderstand things, sound more certain than it should, or promise to remember something when its ability to do so may be limited. The conversational ease can make it tempting to trust more than we should. Part of this new way of working is learning to converse with it like a collaborator while remembering that, underneath the conversation, it is still a computer and still needs to be verified like one.
+
+But something significant has changed. I’m no longer always translating my intentions into exact operations the machine already understands. I can bring it an observation, an unfinished thought, or a concern, and we can develop the idea through conversation.
+
+Maybe that’s the real shift: conversation itself is becoming a way of operating the computer.
+
+We’re not just telling computers what to do anymore. Increasingly, we’re telling them what happened, what seems important, and what worries us. Then we work with them to decide what to do next.
+
+And occasionally, we ask whether now is a good time to go to bed.
