@@ -1,0 +1,396 @@
+/* Shared site chrome — nav, home, resume. Writing pages also load writing.css. */
+
+:root {
+  --paper: #f4f6f8;
+  --ink: #1a1a1a;
+  --muted: #5c6570;
+  --rule: #d5dbe3;
+  --accent: #0d6b6b;
+  --accent-hover: #095555;
+  --measure: 40rem;
+  --sans: "Outfit", "Avenir Next", "Segoe UI", sans-serif;
+  --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 112.5%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--serif);
+  line-height: 1.7;
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* ---- Top navigation ---- */
+
+.top-nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  width: min(100% - 2rem, 52rem);
+  margin: 0 auto;
+  padding: 1.1rem 0;
+  font-family: var(--sans);
+}
+
+.top-nav .nav-brand {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.top-nav .nav-brand:hover {
+  color: var(--accent);
+}
+
+.top-nav .nav-links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.top-nav .nav-links a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.top-nav .nav-links a:hover,
+.top-nav .nav-links a[aria-current="page"] {
+  color: var(--accent);
+}
+
+.nav-rule {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* Link back to the containing page */
+.back {
+  display: inline-block;
+  margin-bottom: 1.75rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+/* ---- Home ---- */
+
+.hero {
+  background:
+    radial-gradient(60rem 30rem at 85% -10%, rgba(13, 107, 107, 0.08), transparent 60%),
+    radial-gradient(40rem 24rem at 0% 110%, rgba(13, 107, 107, 0.05), transparent 60%);
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero-inner {
+  width: min(100% - 2rem, 52rem);
+  margin: 0 auto;
+  padding: 4rem 0 4.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: 2rem 2.5rem;
+  align-items: center;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-portrait {
+  justify-self: end;
+  width: min(100%, 22rem);
+  aspect-ratio: 3 / 4;
+  margin: 0;
+}
+
+.hero-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 18%;
+  /* Soft oval feather — no hard rectangle */
+  -webkit-mask-image: radial-gradient(
+    ellipse 72% 68% at 50% 42%,
+    #000 42%,
+    rgba(0, 0, 0, 0.85) 58%,
+    rgba(0, 0, 0, 0.35) 78%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    ellipse 72% 68% at 50% 42%,
+    #000 42%,
+    rgba(0, 0, 0, 0.85) 58%,
+    rgba(0, 0, 0, 0.35) 78%,
+    transparent 100%
+  );
+  filter: saturate(1.05) contrast(1.02);
+}
+
+@media (max-width: 720px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    padding: 3rem 0 3.5rem;
+    gap: 1.25rem;
+    text-align: center;
+  }
+
+  .hero-portrait {
+    order: -1;
+    justify-self: center;
+    width: min(70vw, 16rem);
+  }
+
+  .cta-row {
+    justify-content: center;
+  }
+
+  .hero .lede {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.hero h1 {
+  margin: 0 0 0.75rem;
+  font-family: var(--sans);
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+.hero .lede {
+  margin: 0 0 2rem;
+  max-width: 34rem;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-family: var(--sans);
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.55rem 1.2rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.cta.primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.cta.primary:hover {
+  background: var(--accent-hover);
+  color: #fff;
+}
+
+.cta.secondary {
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+}
+
+.cta.secondary:hover {
+  border-color: var(--accent-hover);
+  color: var(--accent-hover);
+}
+
+/* ---- Sections ---- */
+
+.section {
+  width: min(100% - 2rem, 52rem);
+  margin: 0 auto;
+  padding: 3rem 0 0;
+}
+
+.section:last-of-type {
+  padding-bottom: 3rem;
+}
+
+.section h2 {
+  margin: 0 0 1.1rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.section .prose {
+  max-width: var(--measure);
+}
+
+.section .prose p {
+  margin: 0 0 1.1rem;
+}
+
+/* Latest writing list (home) */
+
+.latest-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: var(--measure);
+}
+
+.latest-list li {
+  padding: 1.1rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.latest-list li:last-child {
+  border-bottom: 1px solid var(--rule);
+}
+
+.latest-list .date {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.latest-list a.title {
+  font-family: var(--sans);
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.latest-list a.title:hover {
+  color: var(--accent);
+}
+
+.latest-list .teaser {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.more-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Contact */
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+}
+
+.contact-list li {
+  margin: 0.4rem 0;
+}
+
+/* ---- Resume page ---- */
+
+.page {
+  width: min(100% - 2rem, var(--measure));
+  margin: 0 auto;
+  padding: 3rem 0 4rem;
+}
+
+.page h1 {
+  margin: 0 0 1rem;
+  font-family: var(--sans);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.page .prose p {
+  margin: 0 0 1.1rem;
+}
+
+.download-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+  font-family: var(--sans);
+}
+
+/* ---- Footer ---- */
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  margin-top: 3rem;
+}
+
+.site-footer .footer-inner {
+  width: min(100% - 2rem, 52rem);
+  margin: 0 auto;
+  padding: 1.25rem 0 2rem;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.site-footer a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .top-nav {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+}
