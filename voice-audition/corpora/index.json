@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "current": "corpus-f4addc78d79e",
+  "sets": [
+    {
+      "id": "corpus-43bd831ec09e",
+      "label": "Original pilot · 6 voices",
+      "manifest": "corpus-43bd831ec09e/manifest.json",
+      "digest": "43bd831ec09e28cdfc9b3b1ba58142db03b2d7de2444edf614169db2694c1271",
+      "voiceCount": 6
+    },
+    {
+      "id": "corpus-f4addc78d79e",
+      "label": "Expanded lineup · 16 voices",
+      "manifest": "corpus-f4addc78d79e/manifest.json",
+      "digest": "f4addc78d79e567c860ca39cb0a4165436c4e9a00a6970e09342c9a00e83af49",
+      "voiceCount": 16
+    }
+  ]
+}

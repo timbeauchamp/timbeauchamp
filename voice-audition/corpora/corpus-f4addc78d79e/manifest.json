@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "corpusId": "corpus-f4addc78d79e",
+  "digest": "f4addc78d79e567c860ca39cb0a4165436c4e9a00a6970e09342c9a00e83af49",
+  "prompts": {
+    "preview": {
+      "id": "preview-en-v1",
+      "text": "Good morning, I hope your day is starting off well. The porch light is off, and your fifteen-minute timer is set."
+    },
+    "full": {
+      "id": "main-en-v1",
+      "text": "Good morning, I hope your day is starting off well. It’s 7:15 on Tuesday, and the kitchen is 68 degrees. Your first appointment is with Dr. Patel at 9:30. Before you leave, put the blue folder beside the front door and check that the back gate is closed. The shopping list has fresh fish, six crisp apples, coffee, and a small box of matches. The total is $23.50. Did you say fifteen minutes, or fifty? I’ve set a timer for fifteen minutes. The porch light is off, but the hall light is still on. If the washing machine finishes while you’re upstairs, I’ll let you know. Please bring the spare key to Rachel’s desk. Everything else looks quiet. I’m ready when you are, and I promise to keep the commentary brief."
+    }
+  },
+  "candidates": [
+    {
+      "id": "v-03f41289f0ad",
+      "clips": {
+        "full": {
+          "url": "audio/v-03f41289f0ad/main-en-v1.wav",
+          "duration": 45.302131519274376,
+          "sampleRate": 22050,
+          "sha256": "7fa4ad2e2e5f23c2223f78eaac5a763bd7509794537f1737b078137422b84d7c"
+        },
+        "preview": {
+          "url": "audio/v-03f41289f0ad/preview-en-v1.wav",
+          "duration": 6.15328798185941,
+          "sampleRate": 22050,
+          "sha256": "013ac2718ae0f84e9e4805787b7f268569509dca56c34e4d74a9153ba58d723f"
+        }
+      }
+    },
+    {
+      "id": "v-07536fa57f37",
+      "clips": {
+        "full": {
+          "url": "audio/v-07536fa57f37/main-en-v1.wav",
+          "duration": 43.14267573696145,
+          "sampleRate": 22050,
+          "sha256": "93de89783872f85a84c3ab3545d6e87be210416cff634c16752f0cbd4793333e"
+        },
+        "preview": {
+          "url": "audio/v-07536fa57f37/preview-en-v1.wav",
+          "duration": 6.629297052154195,
+          "sampleRate": 22050,
+          "sha256": "dabb201eef9cc5e9a5f85ef8572f26c229db2f0e40926bee1d39f4b684af7d2d"
+        }
+      }
+    },
+    {
+      "id": "v-07e5a7271911",
+      "clips": {
+        "full": {
+          "url": "audio/v-07e5a7271911/main-en-v1.wav",
+          "duration": 48.64580498866213,
+          "sampleRate": 22050,
+          "sha256": "a9b461ad2a75dc3a44f224664e5fe2df7597017c54cc5ed893fe8c22e9ab6f28"
+        },
+        "preview": {
+          "url": "audio/v-07e5a7271911/preview-en-v1.wav",
+          "duration": 6.9543764172335605,
+          "sampleRate": 22050,
+          "sha256": "9fb9f9be7b209ec82e47e6295c4aba920ff287dc6c6fb292c0c048544cf7d004"
+        }
+      }
+    },
+    {
+      "id": "v-0f904ea854f9",
+      "clips": {
+        "full": {
+          "url": "audio/v-0f904ea854f9/main-en-v1.wav",
+          "duration": 52.83700680272109,
+          "sampleRate": 22050,
+          "sha256": "e60bf05846cea59cbc30135885dc0765c8129b58038650251ba5384260f98607"
+        },
+        "preview": {
+          "url": "audio/v-0f904ea854f9/preview-en-v1.wav",
+          "duration": 7.732244897959184,
+          "sampleRate": 22050,
+          "sha256": "169921bb18b50f1a2a0f9a80318055822d9b0db68f446448f1d44fbcdf0db51d"
+        }
+      }
+    },
+    {
+      "id": "v-17b21465bb60",
+      "clips": {
+        "full": {
+          "url": "audio/v-17b21465bb60/main-en-v1.wav",
+          "duration": 38.38258503401361,
+          "sampleRate": 22050,
+          "sha256": "d04f19dc23b44bb0659eaa9e77a3003b04d5de4f86ae55b180104d582ec5120b"
+        },
+        "preview": {
+          "url": "audio/v-17b21465bb60/preview-en-v1.wav",
+          "duration": 5.6540589569161,
+          "sampleRate": 22050,
+          "sha256": "60a75df7a6537dbcb0d215feefe64503cdb3957f88c9aeda950b7382573df0a7"
+        }
+      }
+    },
+    {
+      "id": "v-1d2517ecf14e",
+      "clips": {
+        "full": {
+          "url": "audio/v-1d2517ecf14e/main-en-v1.wav",
+          "duration": 48.518095238095235,
+          "sampleRate": 22050,
+          "sha256": "aa0c767bfd1e353802da5c9fd4d38ae4da2f2283d3454fcb909d4262e329043a"
+        },
+        "preview": {
+          "url": "audio/v-1d2517ecf14e/preview-en-v1.wav",
+          "duration": 6.919546485260771,
+          "sampleRate": 22050,
+          "sha256": "fb1f9313bdc1c03b025bbbfbea5a697446f87045ca171da2e6975ace5ad85e6f"
+        }
+      }
+    },
+    {
+      "id": "v-31541422feb5",
+      "clips": {
+        "full": {
+          "url": "audio/v-31541422feb5/main-en-v1.wav",
+          "duration": 46.78820861678005,
+          "sampleRate": 22050,
+          "sha256": "c4576850f57b651ef674beaefe1501288196bc37ff76081e8e167d5bf601f692"
+        },
+        "preview": {
+          "url": "audio/v-31541422feb5/preview-en-v1.wav",
+          "duration": 6.826666666666667,
+          "sampleRate": 22050,
+          "sha256": "54f598a8e1c599fb71b390b1cd8afaccd58f60adbefcc7a4b6ba07d51e9a2e34"
+        }
+      }
+    },
+    {
+      "id": "v-37e2c6351113",
+      "clips": {
+        "full": {
+          "url": "audio/v-37e2c6351113/main-en-v1.wav",
+          "duration": 38.243265306122446,
+          "sampleRate": 22050,
+          "sha256": "64c774309638e5b53a5ecf3b09a4d32983b1446c1223302be5e91763d498ac7f"
+        },
+        "preview": {
+          "url": "audio/v-37e2c6351113/preview-en-v1.wav",
+          "duration": 5.561179138321996,
+          "sampleRate": 22050,
+          "sha256": "804592ad21d196c809068c00753284da0c052fc5cc4069ddee2c778534b636d7"
+        }
+      }
+    },
+    {
+      "id": "v-55c9dd0b9eb0",
+      "clips": {
+        "full": {
+          "url": "audio/v-55c9dd0b9eb0/main-en-v1.wav",
+          "duration": 56.25034013605442,
+          "sampleRate": 22050,
+          "sha256": "e73375c2081d0fe81836801842f5d7de12db51cd1b392fb6391045239031b84a"
+        },
+        "preview": {
+          "url": "audio/v-55c9dd0b9eb0/preview-en-v1.wav",
+          "duration": 8.452063492063493,
+          "sampleRate": 22050,
+          "sha256": "a523df0a62117be036418a993d67c91b74c33051380e0fd11511e6370f9b49b5"
+        }
+      }
+    },
+    {
+      "id": "v-709c75c573ca",
+      "clips": {
+        "full": {
+          "url": "audio/v-709c75c573ca/main-en-v1.wav",
+          "duration": 40.62331065759637,
+          "sampleRate": 22050,
+          "sha256": "dc20ec3e95ff36ec3b82f25e070d043c91ec70b6acd51ccb4f4be7c26fc6de42"
+        },
+        "preview": {
+          "url": "audio/v-709c75c573ca/preview-en-v1.wav",
+          "duration": 5.758548752834467,
+          "sampleRate": 22050,
+          "sha256": "001f444bd5b25d39288c97a5be85d6a9d3eb69a02cc31434889b900499993417"
+        }
+      }
+    },
+    {
+      "id": "v-8387ab959b88",
+      "clips": {
+        "full": {
+          "url": "audio/v-8387ab959b88/main-en-v1.wav",
+          "duration": 48.55292517006803,
+          "sampleRate": 22050,
+          "sha256": "07192fb069f1c24dea5c1cc077591db9acd35f7af0c64a357ad9ff33bf40e0cb"
+        },
+        "preview": {
+          "url": "audio/v-8387ab959b88/preview-en-v1.wav",
+          "duration": 6.6525170068027215,
+          "sampleRate": 22050,
+          "sha256": "94ecf17f8c33ac393f9ec41168fe5e6ea241bb4c553bb4e83135fcb0122c0958"
+        }
+      }
+    },
+    {
+      "id": "v-84601972ff89",
+      "clips": {
+        "full": {
+          "url": "audio/v-84601972ff89/main-en-v1.wav",
+          "duration": 46.448027210884355,
+          "sampleRate": 22050,
+          "sha256": "d284085ea4f5e4d08bb2499350595cbd81d84c1093f27d9f0237e4ad4f84084c"
+        },
+        "preview": {
+          "url": "audio/v-84601972ff89/preview-en-v1.wav",
+          "duration": 6.608027210884353,
+          "sampleRate": 22050,
+          "sha256": "f77caf9533e664676f3b874c372a446de6542af148297ee0ebfb0ccb0b09d171"
+        }
+      }
+    },
+    {
+      "id": "v-a40b1eccb505",
+      "clips": {
+        "full": {
+          "url": "audio/v-a40b1eccb505/main-en-v1.wav",
+          "duration": 48.92444444444445,
+          "sampleRate": 22050,
+          "sha256": "e95f893af04d6e01aa5cdb3bc4f3a8971ae07112ccefde7597f2da77e2ba316e"
+        },
+        "preview": {
+          "url": "audio/v-a40b1eccb505/preview-en-v1.wav",
+          "duration": 7.291065759637188,
+          "sampleRate": 22050,
+          "sha256": "898ba6381689fdc9d5a117fd98da7500ac10d992091985ff2e33daea0daff05a"
+        }
+      }
+    },
+    {
+      "id": "v-c84ba6436a21",
+      "clips": {
+        "full": {
+          "url": "audio/v-c84ba6436a21/main-en-v1.wav",
+          "duration": 45.58077097505669,
+          "sampleRate": 22050,
+          "sha256": "fd2ad76e3908e29f280094edffdfbd9cd4bf6d86f60a086a977cca6f939f27b8"
+        },
+        "preview": {
+          "url": "audio/v-c84ba6436a21/preview-en-v1.wav",
+          "duration": 6.5712471655328795,
+          "sampleRate": 22050,
+          "sha256": "17c4459b9bf24365ba34e5cc573138c958840aef115f6a0357c5da5fb54fa006"
+        }
+      }
+    },
+    {
+      "id": "v-de4a334bc634",
+      "clips": {
+        "full": {
+          "url": "audio/v-de4a334bc634/main-en-v1.wav",
+          "duration": 39.50875283446712,
+          "sampleRate": 22050,
+          "sha256": "7fd77f6c23311dd53459695ae5d85fe2fd7347a2407d45ae999eba096e1558b4"
+        },
+        "preview": {
+          "url": "audio/v-de4a334bc634/preview-en-v1.wav",
+          "duration": 6.408707482993197,
+          "sampleRate": 22050,
+          "sha256": "e34209e5863e93c7ec7128178181d49ffd8518d113a5e96c0ab528d480f4a220"
+        }
+      }
+    },
+    {
+      "id": "v-eac22530abd5",
+      "clips": {
+        "full": {
+          "url": "audio/v-eac22530abd5/main-en-v1.wav",
+          "duration": 56.8540589569161,
+          "sampleRate": 22050,
+          "sha256": "4a722a736bfc1193a771ecd2214b9cbaf26e510522b25fdf56016dd60d709671"
+        },
+        "preview": {
+          "url": "audio/v-eac22530abd5/preview-en-v1.wav",
+          "duration": 8.13859410430839,
+          "sampleRate": 22050,
+          "sha256": "dd7e894d9bcd22f45aa059a898f3a8a2f809289228c7dc69f02709a740a0abda"
+        }
+      }
+    }
+  ]
+}

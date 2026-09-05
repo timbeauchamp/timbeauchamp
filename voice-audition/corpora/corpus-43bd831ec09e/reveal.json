@@ -1,0 +1,56 @@
+{
+  "v-55c9dd0b9eb0": {
+    "name": "en_GB-alan-medium",
+    "baseline": true,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  },
+  "v-a40b1eccb505": {
+    "name": "en_GB-alba-medium",
+    "baseline": false,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  },
+  "v-eac22530abd5": {
+    "name": "en_US-amy-medium",
+    "baseline": false,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  },
+  "v-8387ab959b88": {
+    "name": "en_GB-cori-medium",
+    "baseline": false,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  },
+  "v-c84ba6436a21": {
+    "name": "en_US-lessac-medium",
+    "baseline": false,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  },
+  "v-709c75c573ca": {
+    "name": "en_US-ryan-medium",
+    "baseline": false,
+    "settings": {
+      "length_scale": 1.17,
+      "noise_scale": 0.667,
+      "noise_w_scale": 0.8
+    }
+  }
+}

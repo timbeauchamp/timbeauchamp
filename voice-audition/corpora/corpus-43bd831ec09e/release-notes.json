@@ -1,0 +1,81 @@
+{
+  "durationExceptionsAccepted": true,
+  "publicReveal": true,
+  "durationExceptions": [
+    {
+      "fingerprint": "5a962f42ea2d276630344056ad0b6eaaff228bd79994da91a01edc6679772297",
+      "candidate": "v-a40b1eccb505",
+      "tier": "preview",
+      "duration": 7.291065759637188,
+      "sampleRate": 22050,
+      "rawPcmSha256": "d83812b14334a41c94cf0b017e9cf60d6c17d705c6bf8ea28a43eca0a83bb33d",
+      "sha256": "898ba6381689fdc9d5a117fd98da7500ac10d992091985ff2e33daea0daff05a",
+      "inputLufs": -26.80860237320459,
+      "outputLufs": -20.0,
+      "estimatedTruePeakDbtp": -3.007950881020258,
+      "gainDb": 6.8086023732045895,
+      "durationException": true,
+      "silenceFraction": 0.0351500298566879
+    },
+    {
+      "fingerprint": "1f8ecdbb2f477e6593485d6689efe62052502a912fe2571052e44181525cc2a5",
+      "candidate": "v-8387ab959b88",
+      "tier": "preview",
+      "duration": 6.6525170068027215,
+      "sampleRate": 22050,
+      "rawPcmSha256": "80e9aa575eaf8a81ad5ac339bb5106c79cbb362577713de51320fcb24f832513",
+      "sha256": "94ecf17f8c33ac393f9ec41168fe5e6ea241bb4c553bb4e83135fcb0122c0958",
+      "inputLufs": -26.4874025581775,
+      "outputLufs": -20.0,
+      "estimatedTruePeakDbtp": -2.5059755313231227,
+      "gainDb": 6.4874025581775,
+      "durationException": true,
+      "silenceFraction": 0.02036976439790576
+    },
+    {
+      "fingerprint": "8a87782744e66e851f70aad1f66395d6e020f102eddceee90cb9660f240e32fe",
+      "candidate": "v-c84ba6436a21",
+      "tier": "preview",
+      "duration": 6.5712471655328795,
+      "sampleRate": 22050,
+      "rawPcmSha256": "adbc7259e167187df18bfd7732b287237815db2e257fcde2591fda37e3ae635c",
+      "sha256": "17c4459b9bf24365ba34e5cc573138c958840aef115f6a0357c5da5fb54fa006",
+      "inputLufs": -20.772234017437317,
+      "outputLufs": -20.0,
+      "estimatedTruePeakDbtp": -2.6001240648407213,
+      "gainDb": 0.7722340174373166,
+      "durationException": true,
+      "silenceFraction": 0.12419252429328621
+    },
+    {
+      "fingerprint": "45a21c6a8ffbe2f5a65fd56b06f628c57fbcd8f62b7531f330175ee19ee1f681",
+      "candidate": "v-709c75c573ca",
+      "tier": "full",
+      "duration": 40.62331065759637,
+      "sampleRate": 22050,
+      "rawPcmSha256": "aa9d12c0fb5a558679aa35fe5d574e0aa278a8a60451ab4b6c4390cb9e770f0e",
+      "sha256": "dc20ec3e95ff36ec3b82f25e070d043c91ec70b6acd51ccb4f4be7c26fc6de42",
+      "inputLufs": -20.17158729876275,
+      "outputLufs": -20.0,
+      "estimatedTruePeakDbtp": -3.3714571639541955,
+      "gainDb": 0.17158729876274847,
+      "durationException": true,
+      "silenceFraction": 0.025548594241211774
+    },
+    {
+      "fingerprint": "a2e3dcc94abc6689ddcac1fca568d3c4e61ec82787d8eab5b961e09762126cba",
+      "candidate": "v-709c75c573ca",
+      "tier": "preview",
+      "duration": 5.758548752834467,
+      "sampleRate": 22050,
+      "rawPcmSha256": "5a66b983878c11f4720e3cfe472cabd1e716f18980a44979aeb48345ea1b13ce",
+      "sha256": "001f444bd5b25d39288c97a5be85d6a9d3eb69a02cc31434889b900499993417",
+      "inputLufs": -20.035765280636056,
+      "outputLufs": -20.0,
+      "estimatedTruePeakDbtp": -4.967929243064313,
+      "gainDb": 0.03576528063605622,
+      "durationException": true,
+      "silenceFraction": 0.01843655493951613
+    }
+  ]
+}
